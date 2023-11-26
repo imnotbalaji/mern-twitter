@@ -1,9 +1,9 @@
 var express = require('express');
 var router = express.Router();
 
-/* GET users listing. */
+/* GET cats listing. */
 router.get('/', function(req, res, next) {
-  res.send('respond with a happy face, a bagful of treats and a resource');
+  res.send('Cats index');
 });
 
 module.exports = router;
